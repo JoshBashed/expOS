@@ -41,9 +41,9 @@ OS_ARCH="UNKNOWN"
 UNAME_M=$(uname -m)
 if [ "$UNAME_M" = "arm64" ]; then
     OS_ARCH="ARM64"
-fi elif [ "$UNAME_M" = "x86_64" ]; then
+elif [ "$UNAME_M" = "x86_64" ]; then
     OS_ARCH="X86_64"
-fi elif [ "$UNAME_M" = "aarch64" ]; then
+elif [ "$UNAME_M" = "aarch64" ]; then
     OS_ARCH="ARM64"
 fi
 
